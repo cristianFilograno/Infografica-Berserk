@@ -1,0 +1,90 @@
+html {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+	height: 100%;
+	/* max-height: 600px; */
+    background-image:
+    url(img/uomo_dx.png),
+    url(img/cavaliere_dx.png),
+    url(img/cavaliere_sx.png),
+    url(img/uomo_sx.png),
+    url(img/logo.png),
+    url('https://i.pinimg.com/originals/53/ee/ff/53eeff1f4f194c54a424e91f4d490884.jpg');
+
+    background-repeat: repeat-x;
+
+    background-size: 
+        230px,
+        450px,
+        400px,
+        350px,
+        300px,
+        100% 100%;
+        
+    background-repeat: no-repeat;
+
+    background-position: 
+        55vmax 30vmax,
+        70vmax 20vmax,
+        -5vmax 25vmax,
+        25vmax 30vmax,
+        center,
+        0vmax 0vmax; 
+    transition: all 4s linear;
+}
+
+
+html:hover{
+    transform: scale(1.3);
+    background-position: 
+        110vmax 30vmax,
+        110vmax 20vmax,
+        -30vmax 25vmax,
+        -30vmax 30vmax,
+        center,
+        0vmax 0vmax;
+}
+/* IN ALTERNATIVA USARE I KEYFRAMES PER USARE 2 TEMPI
+DIFFERENTI, MA CON I KEYFRAMES NON RIESCI A FARLA TORNARE 
+INDIETRO PERCHè SI USANO LE MEDIA QUERIES (?)
+@keyframes zoom {
+    100%{      
+        
+    }
+}
+
+@keyframes move {
+    100%{
+       
+    }        
+}
+*/
+   
+.icon {
+    height: 13vmax;
+    width: 24vmax;
+    cursor: pointer;
+    background-image: url(img/Berserk_anime_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+   
+    
+
+
+	
+
+    
+
+    
+
+   
+
